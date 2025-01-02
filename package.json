@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "homepage": "http://rosypox.github.io/my-spa"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
