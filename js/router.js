@@ -30,7 +30,7 @@ function RenderAboutPage() {
 }
 function RenderContactPage() {
   document.querySelector("main").innerHTML = `
-    <h1 class='title'>Contact with me</h1>
+    <h1 class='title'>Contact me</h1>
     <form id="contact-form">
 <label for="name">Name:</label>
 <input type="text" id="name" name="name" required>
