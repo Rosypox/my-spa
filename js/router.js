@@ -17,7 +17,7 @@ document.querySelector("#about-link").addEventListener("click", (event) => {
 });
 
 document.querySelector("#contact-link").addEventListener("click", (event) => {
-  let stateObj = { page: "contact" };
+  let StateObj = { page: "contact" };
   document.title = "Contact";
   history.pushState(StateObj, "Contact", "?contact");
   RenderContactPage();
