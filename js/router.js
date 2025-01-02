@@ -9,14 +9,16 @@ function OnStartUp() {
 
 OnStartUp();
 
-document.querySelector("#about-link").addEeventListener("click", (event) => {
+document.querySelector("#about-link").addEventListener("click", (event) => {
   let StateObj = { page: "about" };
+  document.title = "About";
   history.pushState(StateObj, "About", "?about");
   RenderAboutPage();
 });
 
-document.querySelector("#contact-link").addEeventListener("click", (event) => {
+document.querySelector("#contact-link").addEventListener("click", (event) => {
   let stateObj = { page: "contact" };
+  document.title = "Contact";
   history.pushState(StateObj, "Contact", "?contact");
   RenderContactPage();
 });
