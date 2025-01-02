@@ -86,15 +86,15 @@ function LoadGalleryImages() {
 
   // Example images (use real URLs for your images)
   const imageUrls = [
-    "/images/render2.png",
-    "/images/render3.png",
-    "/images/bmw render1.png",
-    "/images/render1.png",
-    "/images/GTm render 2.png",
-    "/images/dbd render.png",
-    "/images/bathroom render 2.png",
-    "/images/kitchen_render4.png",
-    "/images/dining room.png",
+    "images/render2.png",
+    "images/render3.png",
+    "images/bmw render1.png",
+    "images/render1.png",
+    "images/GTm render 2.png",
+    "images/dbd render.png",
+    "images/bathroom render 2.png",
+    "images/kitchen_render4.png",
+    "images/dining room.png",
   ];
   imageUrls.forEach((url, index) => {
     const imgElement = document.createElement("img");
